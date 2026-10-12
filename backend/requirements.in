@@ -1,0 +1,13 @@
+# Runtime dependencies. Exact installed versions are in requirements.lock.txt.
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+httpx
+dashscope
+cryptography
+
+# Development dependencies.
+pytest
+pytest-asyncio
+ruff
